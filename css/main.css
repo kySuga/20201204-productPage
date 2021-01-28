@@ -1,3 +1,11 @@
 h1 {
   color: green;
 }
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
