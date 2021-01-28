@@ -19,27 +19,175 @@
     <![endif]-->
     
     <header role="banner">
-      <div class="nav-bar">
+      <section class="nav-bar">
         <img src="#" alt="logo">
         <div class="search-and-menu">
           <span class="search-wrap">
-            <label for="site-search" class="visually-hidden">Search the site:</label>
+            <label for="site-search" class="sr-only">Search the site:</label>
             <input type="search" id="site-search" aria-label="Search the site for other great products.">
             <button>Search</button>
           </span>
-          
-        </div>
-      </div>
-      <h1>
-        Product Name
-      </h1>
+          <nav role="navigation">
+            <ul>
+              <li>
+                Clothes
+              </li>
+              <li>
+                Footwear
+              </li>
+              <li>
+                Gear
+              </li>
+              <li>
+                Accessories
+              </li>
+              <li>
+                About Us
+              </li>
+              <li>
+                Contact Us
+              </li>
+            </ul>
+          </nav>
+        </div><!-- .search-and-menu -->
+      </section><!-- .nav-bar -->
     </header>
-    <main>
+
+    <main id="product-page">
+
+      <section class="product-gallery">
+        <h1>
+          Product Name
+        </h1>
+        <picture>
+          <!-- need to create snippets, picture element being one of them -->
+        </picture>
+      </section>
+
+      <section id="product-information">
+        <h2 class="product name">
+          Product Name
+        </h2>
+        <h3 class="product price">
+          $123.78
+        </h3>
+        <article class="product description">
+          <h4>
+            Description
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </article>
+        <article class="product features">
+          <h4>
+            Features
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </article>
+        <article class="product tech-specs">
+          <h4>
+            Tech Specs
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </article>
+      </section><!-- .product-information -->
+
+      <section class="product-options">
+
+        <div class="product sizes">
+          <a href="#sizes">
+            Select Size
+          </a>
+
+          <ul>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li>10</li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li>14</li>
+          </ul>
+        </div><!-- .product.sizes -->
+
+        <div class="product color cards">
+          <div class="product color-card">
+            <picture>
+              <source srcset="" media="(min-width: 640px)">
+              <img src="" alt="">
+            </picture>
+            <h5>
+              Color Name
+            </h5>
+          </div>
+          <div class="product color-card">
+            <picture>
+              <source srcset="" media="(min-width: 640px)">
+              <img src="" alt="">
+            </picture>
+            <h5>
+              Color Name
+            </h5>
+          </div>
+          <div class="product color-card">
+            <picture>
+              <source srcset="" media="(min-width: 640px)">
+              <img src="" alt="">
+            </picture>
+            <h5>
+              Color Name
+            </h5>
+          </div>
+          <div class="product color-card">
+            <picture>
+              <source srcset="" media="(min-width: 640px)">
+              <img src="" alt="">
+            </picture>
+            <h5>
+              Color Name
+            </h5>
+          </div>
+          <div class="product color-card">
+            <picture>
+              <source srcset="" media="(min-width: 640px)">
+              <img src="" alt="">
+            </picture>
+            <h5>
+              Color Name
+            </h5>
+          </div>
+          <div class="product color-card">
+            <picture>
+              <source srcset="" media="(min-width: 640px)">
+              <img src="" alt="">
+            </picture>
+            <h5>
+              Color Name
+            </h5>
+          </div>
+        </div><!-- .product.color.cards -->
+
+        <div class="product actions">
+          <button class="atc btn">
+            Add To Cart
+          </button>
+        </div><!-- .product.actions -->
+
+      </section><!-- .product-options -->
 
     </main>
-    <footer role="contentinfo">
 
+    <footer role="contentinfo">
     </footer>
+
     <!-- may include js to select images or slider for images -->
     <!-- <script src="" async defer></script> -->
   </body>
